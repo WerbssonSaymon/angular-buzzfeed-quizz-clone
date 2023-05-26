@@ -14,15 +14,16 @@
 
 .quizz_logo > h3{
   margin-top: 20px;
+  font-size: 32px;
 }
 
 .quizz_questions{
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #4224d9;
+  border:1px solid #ffffff;
   border-radius: 8px;
-  background-color: #644ED2;
+  background-color: #005eff;
   width: 100%;
   height: 200px;
   font-size: 20px;
@@ -41,20 +42,21 @@
 .btn-option{
   background-color: transparent;
   border-radius: 8px;
-  border: 1px solid #18ab29;
-  width: 50%;
-  display: inline-block;
+  border: 1px solid #ffffff;
+  width: 100%;
+  display: block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: bold;
   padding: 16px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
+  text-shadow: 2px 2px 2px #2f6627;
 }
 
 .btn-option:hover{
-  background-color: #5cbf2a;
+  background-color: #005eff;
 }
 
 .btn-option:active{
@@ -72,4 +74,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.quizz_results > p{
+  margin-top: 20px;
+  font-size: 16px;
 }

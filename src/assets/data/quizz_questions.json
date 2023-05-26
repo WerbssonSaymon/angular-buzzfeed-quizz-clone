@@ -1,55 +1,111 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"O que você sabe sobre programação front-end?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Escolha uma opção que é uma ação do protocolo HTTP",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"GET", "alias":"A"},
+        {"id": 2, "name":"TED", "alias":"B"},
+        {"id": 3, "name":"PUT", "alias":"A"},
+        {"id": 4, "name":"DOC", "alias":"B"},
+        {"id": 5, "name":"DELETE", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Escolha uma tag HTML5 que não está obsoleta",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"CENTER", "alias":"B"},
+        {"id": 2, "name":"DIV", "alias":"A"},
+        {"id": 3, "name":"BIG", "alias":"B"},
+        {"id": 4, "name":"FOOTER", "alias":"A"},
+        {"id": 5, "name":"FORM", "alias":"A"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "O que é CSS ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"ESTRUTURA EM CAMADAS", "alias":"B"},
+        {"id": 2, "name":"FOLHA DE ESTILO EM CASCATA", "alias":"A"},
+        {"id": 3, "name":"MODELO EM CASCATA", "alias":"B"},
+        {"id": 4, "name":"CAMADA DE PERSISTÊNCIA DE DADOS", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual outro nome é utilizado ao falar sobre Javascript ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"JAVA", "alias":"B"},
+        {"id": 2, "name":"TYPESCRIPT", "alias":"B"},
+        {"id": 3, "name":"ECMASCRIPT", "alias":"A"},
+        {"id": 4, "name":"NODE", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Escolha uma das opções que é um framework CSS",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"BOOTSTRAP", "alias":"A"},
+        {"id": 2, "name":"VUE", "alias":"B"},
+        {"id": 3, "name":"MATERIALIZE", "alias":"A"},
+        {"id": 4, "name":"TAILWIND", "alias":"A"},
+        {"id": 5, "name":"DJANGO", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual o significado da linguagem PHP ?",
+      "options":[
+        {"id": 1, "name":"PERSONAL HOME PROTOCOL", "alias":"B"},
+        {"id": 2, "name":"PERFECT HOME PROTOCOL", "alias":"B"},
+        {"id": 3, "name":"PERFECT HOME PAGE", "alias":"B"},
+        {"id": 4, "name":"PERSONAL HOME PAGE", "alias":"A"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual desses é um banco de dados não relacional ?",
+      "options":[
+        {"id": 1, "name":"MYSQL", "alias":"B"},
+        {"id": 2, "name":"MONGODB", "alias":"A"},
+        {"id": 3, "name":"POSTGRESSQL", "alias":"B"},
+        {"id": 4, "name":"SQLSERVER", "alias":"B"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "O que é o Github ?",
+      "options":[
+        {"id": 1, "name":"SERVIDOR", "alias":"B"},
+        {"id": 2, "name":"BANCO DE DADOS", "alias":"B"},
+        {"id": 3, "name":"SITE DE JOGOS", "alias":"B"},
+        {"id": 4, "name":"REPOSITÓRIO REMOTO", "alias":"A"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Selecione um frameworks Javascript ",
+      "options":[
+        {"id": 1, "name":"ANGULAR", "alias":"A"},
+        {"id": 2, "name":"REACT", "alias":"A"},
+        {"id": 3, "name":"SPRING", "alias":"B"},
+        {"id": 4, "name":"LARAVEL", "alias":"B"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "O que é o Git?",
+      "options":[
+        {"id": 1, "name":"VERSIONADOR DE CÓDIGO", "alias":"A"},
+        {"id": 2, "name":"ATUALIZADOR DE APPS", "alias":"B"},
+        {"id": 3, "name":"ANTI-VÍRUS", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Parabéns, você conhece bastante sobre o mundo front-end, continue assim",
+    "B": "Que pena, você ainda tem muito conteúdo para estudar, mas não desista, você consegue"
   }
 }
